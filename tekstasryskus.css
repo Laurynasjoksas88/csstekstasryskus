@@ -1,0 +1,35 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.flex {
+    background-image: url(/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & .container {
+
+        color: white;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, .5);
+        width: 95rem;
+        height: 30rem;
+        text-align: center;
+        padding-bottom:80px;
+        font-size:150px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 900;
+    }
+}
+
+.kitoks {
+    color: #FF904D;
+    padding-bottom: 10px;
+    padding-top: 10;
+}
